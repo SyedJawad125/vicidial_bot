@@ -22,3 +22,7 @@ django-ckeditor-5==0.2.18
 
 python-decouple==3.8
 requests==2.32.3
+
+
+# pip install vosk pydub gtts
+# pip install git+https://github.com/myshell-ai/MeloTTS.git

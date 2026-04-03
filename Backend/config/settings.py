@@ -69,6 +69,7 @@ INSTALLED_APPS = [
     'apps.notification',
     'apps.images',
     'apps.bot_api',
+    'apps.voice',
 
     "drf_spectacular",
     "drf_spectacular_sidecar",
