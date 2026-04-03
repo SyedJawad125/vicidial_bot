@@ -366,3 +366,18 @@ LOGGING = {
         "vicidial_bot": {"handlers": ["console", "file"], "level": "DEBUG", "propagate": False},
     },
 }
+
+
+
+
+
+
+VOSK_MODELS = {
+    "en": BASE_DIR / "vosk_models" / "en",
+    "ur": BASE_DIR / "vosk_models" / "ur",   # optional
+}
+VOICE_AUDIO_DIR = BASE_DIR / "voice_audio"   # where WAV files are saved
+BOT_LANGUAGE    = "en"                       # default language
+BOT_GREETING    = "Hello! You have reached our automated assistant. How can I help you today?"
+FASTAGI_HOST    = "127.0.0.1"
+FASTAGI_PORT    = 4577

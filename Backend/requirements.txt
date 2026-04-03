@@ -26,3 +26,13 @@ requests==2.32.3
 
 # pip install vosk pydub gtts
 # pip install git+https://github.com/myshell-ai/MeloTTS.git
+
+# pip install vosk                                          # STT engine
+# pip install git+https://github.com/myshell-ai/MeloTTS.git  # TTS engine
+# python -m unidic download                                 # MeloTTS dependency
+# pip install pydub                                         # audio conversion
+# pip install gtts                                          # Urdu/Arabic fallback TTS
+ 
+# # For Asterisk audio pipe support
+# pip install pyaudio   # optional, only if using real-time mic testing
+ 
