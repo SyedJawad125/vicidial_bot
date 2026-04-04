@@ -46,3 +46,20 @@ requests==2.32.3
 # pip install melotts
 
 # pip install git+https://github.com/myshell-ai/MeloTTS.git
+
+
+
+
+
+# For STT 
+# Fix — download the Vosk model (2 options)
+# Option A — Browser (easiest, 0 commands):
+
+# Open this URL in Chrome/Edge and let it download (~40 MB):
+# https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
+# Right-click the downloaded ZIP → Extract All
+# Open the extracted folder vosk-model-small-en-us-0.15
+# Select ALL files inside it (Ctrl+A)
+# Copy them (Ctrl+C)
+# Navigate to F:\vicidial_bot_1\Backend\vosk_models\en\ (create this folder if it doesn't exist)
+# Paste (Ctrl+V)
